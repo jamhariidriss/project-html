@@ -2,11 +2,23 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color:rgb(255, 255, 255)}
+    background-color:rgb(19, 18, 18);height:100PX;
+    color: rgb(249, 250, 252);gap:50px}
 
-.HOME ul{ 
+    .HOME{
+        display: flex;
+        gap: 20px;}
+
+     a { color: rgb(252, 249, 249);
+              background-color: rgb(13, 14, 14);
+              text-decoration: none;
+
+            }
+    .photo { 
+
     display: flex;
-    gap: 20px}
-    .stratégie{background-color: black;color: aliceblue;}
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center}
 
-    
+
