@@ -1,0 +1,40 @@
+.logo{ 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color:rgb(19, 18, 18);height:100PX;
+    color: rgb(249, 250, 252);gap:50px;
+  }
+
+.HOME{
+  display: flex;
+  gap: 20px;
+}
+
+a{ 
+  color: rgb(252, 249, 249);
+  background-color: rgb(13, 14, 14);
+  text-decoration: none;
+
+}
+
+main{
+  background-color: rgb(250, 247, 250);
+  display: flex;
+  justify-content: center;
+  height:80vh;
+  align-items: center;
+}
+.box1{ 
+  background-color: rgb(244, 247, 247);
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.photo{
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+ 
+}
